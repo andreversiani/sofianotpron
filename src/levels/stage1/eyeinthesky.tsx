@@ -16,7 +16,7 @@ function EyeInTheSky() {
     <BaseLevel imagePath="eyeinthesky.jpg" title="مصر" >
       {useComment(tip1)}
       <AudioPlayer 
-        src={audio}
+        src={'/audio/eyeinthesky.mp3'}
         style={{ maxWidth: '300px', borderRadius: '10px' }}
         autoPlay={true}
         loop={true}
