@@ -1,6 +1,5 @@
 import { BaseLevel } from "../../components/BaseLevel"
 import { useComment } from "../../hooks/useComment"
-import audio from '../../assets/audio/eyeinthesky.mp3'
 import AudioPlayer from 'react-h5-audio-player'
 import 'react-h5-audio-player/lib/styles.css';
 
