@@ -1,0 +1,25 @@
+.base-level {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.base-img {
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+  border: 7px solid black;
+}
+
+.image-container {
+  display: inline-block;
+}
+
+.image-text {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  font-size: 30px;
+  -webkit-text-stroke: 1px black;
+}
