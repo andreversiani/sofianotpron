@@ -14,7 +14,7 @@ export const BaseLevel = ({ children, imagePath, title, imageText = '' }: Props)
     title ? document.title = title: null
   }, [])
 
-  const imgSrc = '/src/assets/backgrounds/' + imagePath;
+  const imgSrc = '/backgrounds/' + imagePath;
   return (
     <div className='base-level'>
       <div className='img-container' style={{ position: 'relative'}}>
