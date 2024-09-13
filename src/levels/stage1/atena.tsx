@@ -3,8 +3,8 @@ import { useComment } from "../../hooks/useComment"
 
 function Atena() {
   return (
-    <BaseLevel imagePath="deusa.jpg" imageText="1">
-      {useComment('Deusa?')}
+    <BaseLevel imagePath="deusa.jpg">
+      {useComment('Qual é essa deusa?')}
     </BaseLevel>   
   )
 }
