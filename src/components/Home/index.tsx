@@ -48,11 +48,6 @@ export const Home = () => {
           </li>
           <li>
             <div>
-              Antes de começar a jogar, favor compartilhar a localização no Whatsapp;
-            </div>
-          </li>
-          <li>
-            <div>
               Você já sabe tudo o que precisa para começar.
             </div>
           </li>

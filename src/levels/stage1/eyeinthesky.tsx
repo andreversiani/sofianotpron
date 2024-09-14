@@ -12,7 +12,7 @@ function EyeInTheSky() {
   const tip1 = 'De quem é o olho no céu?'
   
   return (
-    <BaseLevel imagePath="eyeinthesky.jpg" title="مصر" >
+    <BaseLevel imagePath="eyeinthesky.jpg" title="مصر" imageText="14">
       {useComment(tip1)}
       <AudioPlayer 
         src={'/audio/eyeinthesky.mp3'}

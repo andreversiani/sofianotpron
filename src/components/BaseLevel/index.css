@@ -9,7 +9,7 @@
   width: 600px;
   height: 600px;
   border-radius: 20px;
-  border: 7px solid black;
+  border: 7px solid white;
 }
 
 .image-container {
@@ -25,5 +25,5 @@
 }
 
 :root {
-  background-color: #242424;
+  background-color: black;
 }
