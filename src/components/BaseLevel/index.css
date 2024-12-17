@@ -12,9 +12,23 @@
   border: 7px solid white;
 }
 
+@media (max-width: 650px) {
+  .base-img {
+    width: 80%;
+    height: auto;
+  }
+
+  .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .image-container {
   display: inline-block;
 }
+
 
 .image-text {
   position: absolute;
@@ -27,3 +41,4 @@
 :root {
   background-color: black;
 }
+
